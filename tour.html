@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="html" href="index.html">
+        <link rel="icon" href="/images/mem.png" type="image/gif">
+        <title>Tour Eli - Tour</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body {
+                scroll-behavior: smooth;
+            }
+            a {
+                text-decoration: none;
+                cursor: pointer;
+                margin: 0 20px 0 20px;
+                color: black;
+                font-family: Roboto, Arial;
+                font-weight: bold;
+                border-radius: 20px;
+                padding: 5px 8px;
+            }
+            a:active {
+                color: rgb(255, 255, 255);
+                background-color: red;
+            }
+            a:hover {
+                border-radius: 20px;
+                background-color: rgb(211, 230, 0);
+                transition: 0.2s;
+                color: rgb(255, 255, 255);
+            }
+            .anchor {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+            }
+            .navbar {
+                position: fixed;
+                top: 0;
+                left: 0;
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+                padding: 20px;
+                color: rgb(0, 0, 0);
+                height: 60px;
+                background-color: rgb(211, 230, 0);
+                align-items: center;
+                z-index: 100;
+            }
+            .logo {
+                font-family: wheat, plato, "Curlz MT", cursive, "Comic Sans MS";
+                font-weight: bold;
+                letter-spacing: 5px;
+                font-size: xx-large;
+                align-items: center;
+            }
+            body {
+                background-color: whitesmoke;
+            }
+            main {
+                margin-top: 60px;
+                display: flex;
+            }
+            .h1-div {
+                margin: 0 auto;
+                font-size: 3vmin;
+            }
+            .tour-line {
+                margin: 10px auto;
+                height: 5px;
+                width: 15vw;
+                background-color: rgb(211, 230, 0);
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div>
+                <h1 class="logo">TOUR ELI</h1>
+            </div>
+            <div class="anchor">
+                <a href="index.html">Home</a>
+                <a href="tour.html">Tour</a>
+                <a href="#">Explore</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </div>
+        </nav>
+        <main>
+            <div class="h1-div">
+                <h1>TOUR WITH US TODAY...</h1>
+                <div class="tour-line"></div>
+            </div>
+        </main>
+            
+    </body>
+</html>
